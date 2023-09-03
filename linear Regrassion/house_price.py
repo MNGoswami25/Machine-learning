@@ -10,7 +10,7 @@ data = pd.read_csv(r'D:\Machine-learning\Housing.csv')
 
 # 'price' is the target variable that we want to predict
 
-# Separate features (X) and target (y)
+# Separate features (X) and target (y)  
 X = data[['area']]
 y = data['price']
 
